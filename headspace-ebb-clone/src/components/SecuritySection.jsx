@@ -23,7 +23,7 @@ export function SecuritySection() {
               Privacy
             </h3>
             <p className="text-headspace-dark-blue">
-              Ebb is built with privacy by design. We use leading practices to protect privacy and adhere to privacy-related regulations.
+              Elivia is built with privacy by design. We use leading practices to protect privacy and adhere to privacy-related regulations.
             </p>
           </div>
 
@@ -57,14 +57,14 @@ export function SecuritySection() {
               Safety
             </h3>
             <p className="text-headspace-dark-blue">
-              Not only have clinical experts rigorously tested Ebb for safety, but we've also built a proprietary safety system to identify and route members to additional care based on risks, such as suicidal ideation, self-harm, abuse, and more.
+              Not only have clinical experts rigorously tested Elivia for safety, but we've also built a proprietary safety system to identify and route members to additional care based on risks, such as suicidal ideation, self-harm, abuse, and more.
             </p>
           </div>
         </div>
 
         <div className="mt-16 text-center">
           <p className="text-sm text-headspace-dark-blue max-w-4xl mx-auto mb-6">
-            Ebb is not a substitute for human care, does not provide clinical mental health services and is not monitored in real time by a human. If you have a care team, information that you enter into Ebb is not shared with them, unless you elect to share this information. If you need support for a mental health condition, please talk with a licensed provider. If you are in immediate danger, please contact your local emergency services or go to the nearest emergency room. If you are located in the United States or Canada and you are having thoughts of suicide or self-harm, please call or text 988, the Suicide and Crisis Lifeline.
+            Elivia is not a substitute for human care, does not provide clinical mental health services and is not monitored in real time by a human. If you have a care team, information that you enter into Elivia is not shared with them, unless you elect to share this information. If you need support for a mental health condition, please talk with a licensed provider. If you are in immediate danger, please contact your local emergency services or go to the nearest emergency room. If you are located in the United States or Canada and you are having thoughts of suicide or self-harm, please call or text 988, the Suicide and Crisis Lifeline.
           </p>
           <p className="text-sm text-headspace-dark-blue">
             You can find additional international mental health resources{" "}
