@@ -12,7 +12,7 @@ export function Navbar() {
             <path d="M25 15.5C25.8284 15.5 26.5 14.8284 26.5 14C26.5 13.1716 25.8284 12.5 25 12.5C24.1716 12.5 23.5 13.1716 23.5 14C23.5 14.8284 24.1716 15.5 25 15.5Z" fill="#344964" />
             <path d="M20 25C23.5 25 26 22.5 26 22.5" stroke="#344964" strokeWidth="1.5" strokeLinecap="round" />
           </svg>
-          Headspace
+          Docure.ai
         </Link>
         <div className="hidden md:flex space-x-6 ml-10">
           <Link href="#" className="text-[#2d2c2b] hover:text-[#0040ea]">For You</Link>
