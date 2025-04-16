@@ -17,7 +17,7 @@ export async function POST(req) {
       body: JSON.stringify({
         model: "llama3-8b-8192", // Groq supports llama3-8b-8192 and 70b-8192
         messages: [
-          { role: "system", content: "You are a friendly healthcare assistant named Ebb." },
+          { role: "system", content: "You are a friendly healthcare assistant named Elivia." },
           { role: "user", content: message },
         ],
         temperature: 0.7,
@@ -33,6 +33,6 @@ export async function POST(req) {
 
   } catch (error) {
     console.error("❌ Error talking to Groq:", error);
-    return NextResponse.json({ reply: "Ebb had trouble thinking... please try again." });
+    return NextResponse.json({ reply: "Elivia had trouble thinking... please try again." });
   }
 }
