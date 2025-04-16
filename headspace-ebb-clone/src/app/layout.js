@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Meet Ebb | AI Mental Health Companion - Headspace",
-  description: "Ebb is a new space for writing out your thoughts, finding gratitude, and seeing things from a new perspective.",
+  title: "Meet Elivia | AI Mental Health Companion - Docure",
+  description: "Elivia is a new space for writing out your thoughts, finding gratitude, and seeing things from a new perspective.",
   icons: {
     icon: "/favicon.ico",
   },
