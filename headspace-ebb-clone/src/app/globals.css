@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Headspace Apercu';
+  src: url('/fonts/HeadspaceApercu-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Headspace Apercu';
+  src: url('/fonts/HeadspaceApercu-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --background: 30 100% 99.8%;
+    --foreground: 222 47% 29%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 29%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 29%;
+    --primary: 222 47% 29%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 16 100% 56%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 16 100% 56%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 16 100% 56%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 16 100% 50%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 16 100% 50%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 16 100% 50%;
+  }
+}
+
+@layer base {
+  body {
+    font-family: 'Headspace Apercu', system-ui, sans-serif;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+}
+
+.bg-orange-gradient {
+  background: linear-gradient(135deg, #f9c692 0%, #faaf99 50%, #dc6c24 100%);
+}
+
+.bg-light-orange {
+  background-color: #FFF5EB;
+}
+
+@layer components {
+  .headspace-button {
+    @apply bg-[#59b4f7] hover:bg-[#4da3e6] text-white font-bold py-3 px-6 rounded-full;
+  }
+
+  .headspace-secondary-button {
+    @apply bg-[#344964] hover:bg-[#2d3f58] text-white font-bold py-3 px-6 rounded-full;
+  }
+
+  .headspace-outline-button {
+    @apply bg-transparent border-2 border-[#344964] text-[#344964] font-bold py-3 px-6 rounded-full hover:bg-[#344964] hover:text-white;
+  }
+}
