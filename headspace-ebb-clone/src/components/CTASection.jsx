@@ -53,7 +53,7 @@ export function CTASection() {
       speechSynthesis.speak(utterance);
     } catch (err) {
       console.error("Bot error:", err);
-      const fallback = "Ebb had trouble thinking... try again later.";
+      const fallback = "Elivia had trouble thinking... try again later.";
       setResponse(fallback);
       speechSynthesis.speak(new SpeechSynthesisUtterance(fallback));
     }
@@ -65,30 +65,26 @@ export function CTASection() {
         <div className="relative w-full max-w-5xl h-[200px] mb-10">
           <Image
             src="/images/CTA_Module.svg"
-            alt="Chat with Ebb"
+            alt="Chat with Elivia"
             fill
             style={{ objectFit: "contain" }}
           />
         </div>
         <h2 className="text-3xl md:text-4xl font-bold text-center text-headspace-dark-blue mb-8">
-          Chat with Ebb
+          Chat with Elivia
         </h2>
 
         <div className="flex flex-col sm:flex-row gap-6 items-center mb-16">
-          <p className="font-bold text-headspace-dark-blue">Already a Headspace member?</p>
+          <p className="font-bold text-headspace-dark-blue">Already a Docure.ai member?</p>
           <Link href="#" className="text-headspace-dark-blue underline font-bold">
-            Start chatting with Ebb now (mobile only)
+            Start chatting with Elivia now (mobile only)
           </Link>
         </div>
-
-        <Button className="headspace-button text-lg px-10">
-          Try Headspace for free
-        </Button>
 
         <div className="mt-16 relative w-full max-w-xl h-[400px]">
           <Image
             src="/images/chat-module.png"
-            alt="Ebb chat interface"
+            alt="Elivia chat interface"
             fill
             style={{ objectFit: "contain" }}
             className="mx-auto"
@@ -97,10 +93,10 @@ export function CTASection() {
 
         <div className="mt-16 max-w-3xl mx-auto">
           <h3 className="text-2xl font-bold text-headspace-dark-blue mb-6">
-            How should I use Ebb?
+            How should I use Elivia?
           </h3>
           <p className="text-headspace-dark-blue text-center mb-8">
-            Think of Ebb like a tool in your mental health toolkit. Ebb is an AI-powered tool that's designed to help you better understand yourself. While therapy and coaching provide deeper emotional support, Ebb can help you maintain mental wellness by encouraging regular reflection and mindfulness. Ebb is not a substitute for human care, does not provide clinical mental health services and is not monitored in real time by a human. Whether you need recommendations for your next meditation or just room to unpack your day, Ebb is always here for you.
+            Think of Elivia like a tool in your mental health toolkit. Elivia is an AI-powered tool that's designed to help you better understand yourself. While therapy and coaching provide deeper emotional support, Elivia can help you maintain mental wellness by encouraging regular reflection and mindfulness. Elivia is not a substitute for human care, does not provide clinical mental health services and is not monitored in real time by a human. Whether you need recommendations for your next meditation or just room to unpack your day, Elivia is always here for you.
           </p>
         </div>
 
@@ -117,13 +113,13 @@ export function CTASection() {
               cursor: 'pointer',
             }}
           >
-            🎤 Talk to Ebb
+            🎤 Talk to Elivia
           </button>
           <p style={{ marginTop: '20px' }}>
             <strong>You said:</strong> {transcript}
           </p>
           <p>
-            <strong>Ebb replied:</strong> {response}
+            <strong>Elivia replied:</strong> {response}
           </p>
         </div>
       </div>
