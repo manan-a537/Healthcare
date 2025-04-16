@@ -4,7 +4,7 @@ export function FeaturesSection() {
   return (
     <section className="py-24 px-6 md:px-10 lg:px-20 bg-white">
       <h2 className="text-4xl md:text-5xl font-bold text-center text-headspace-dark-blue mb-20">
-        How Ebb works
+        How Elivia works
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
@@ -21,7 +21,7 @@ export function FeaturesSection() {
             Explore your emotions
           </h3>
           <p className="text-headspace-dark-blue">
-            Whether you&apos;re processing relationship challenges, work stress, or sleep issues, Ebb is there to help you unpack what&apos;s on your mind.
+            Whether you&apos;re processing relationship challenges, work stress, or sleep issues, Elivia is there to help you unpack what&apos;s on your mind.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ export function FeaturesSection() {
             Personalized recommendations
           </h3>
           <p className="text-headspace-dark-blue">
-            Ebb listens and responds to what you have to say, sending personalized meditations and activities for however you&apos;re feeling.
+            Elivia listens and responds to what you have to say, sending personalized meditations and activities for however you&apos;re feeling.
           </p>
         </div>
 
@@ -55,8 +55,8 @@ export function FeaturesSection() {
             Anytime, anywhere
           </h3>
           <p className="text-headspace-dark-blue">
-            Whether it&apos;s day or night, share what&apos;s on your mind with Ebb whenever you need to 
-            — all in the Headspace app.
+            Whether it&apos;s day or night, share what&apos;s on your mind with Elivia whenever you need to 
+            — all in the Docure.ai app.
           </p>
         </div>
       </div>
@@ -65,7 +65,7 @@ export function FeaturesSection() {
         <div className="relative w-full max-w-2xl h-[450px]">
           <Image
             src="/images/app-screenshot.webp"
-            alt="Ebb app screenshot"
+            alt="Elivia app screenshot"
             fill
             style={{ objectFit: "contain" }}
             className="rounded-lg shadow-lg"
@@ -78,7 +78,7 @@ export function FeaturesSection() {
           Designed by leading mental health experts
         </h3>
         <p className="text-headspace-dark-blue max-w-3xl mx-auto">
-          Ebb was built and tested by clinical psychologists using scientifically-backed methods. Ebb&apos;s conversations are evaluated and improved to make sure Ebb is helpful for you.
+          Elivia was built and tested by clinical psychologists using scientifically-backed methods. Elivia&apos;s conversations are evaluated and improved to make sure Elivia is helpful for you.
         </p>
       </div>
     </section>
