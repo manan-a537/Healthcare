@@ -7,10 +7,10 @@ export function Footer() {
       <div className="bg-headspace-light-orange py-16 px-6 md:px-10 lg:px-20">
         <div className="w-full max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-headspace-dark-blue mb-10">
-            Chat with Ebb
+            Chat with Elivia
           </h2>
           <Button className="headspace-button text-lg px-12">
-            Try Headspace for free
+            Try Docure.ai for free
           </Button>
         </div>
       </div>
@@ -18,7 +18,7 @@ export function Footer() {
       <div className="py-16 px-6 md:px-10 lg:px-20">
         <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
-            <h3 className="font-bold text-headspace-dark-blue mb-6">Get some Headspace</h3>
+            <h3 className="font-bold text-headspace-dark-blue mb-6">Get Docure.ai</h3>
             <ul className="space-y-3">
               <li><Link href="#" className="text-sm text-headspace-dark-blue hover:text-headspace-blue">Log in</Link></li>
               <li><Link href="#" className="text-sm text-headspace-dark-blue hover:text-headspace-blue">Sign up</Link></li>
@@ -51,7 +51,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-bold text-headspace-dark-blue mb-6">My Headspace</h3>
+            <h3 className="font-bold text-headspace-dark-blue mb-6">My Docure.ai</h3>
             <ul className="space-y-3">
               <li><Link href="#" className="text-sm text-headspace-dark-blue hover:text-headspace-blue">Log in</Link></li>
               <li><Link href="#" className="text-sm text-headspace-dark-blue hover:text-headspace-blue">Get the app</Link></li>
